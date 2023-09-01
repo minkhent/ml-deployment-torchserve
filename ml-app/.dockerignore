@@ -1,0 +1,8 @@
+#igonre model files
+model-artifacts/
+
+#igonre utils scripts
+scripts/
+
+*.sh
+*.yml

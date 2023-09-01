@@ -1,0 +1,4 @@
+torch-model-archiver==0.8.1
+torch-workflow-archiver==0.2.9
+transformers==4.31.0
+torch
