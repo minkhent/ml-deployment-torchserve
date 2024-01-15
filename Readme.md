@@ -1,4 +1,11 @@
-# Run scripts
+# ML-deployment + Monitoring system
+
+This is a simple yet powerful ml-deployment and monitoring system template.
+* ML tech stack ( pytorch , huggingface)
+* Deployment ( torchserve )
+* Monitoring ( cAdvisor , prometheus , Grafana  )
+
+### Run util scripts
 
 ```
 cd ml-app/scripts
@@ -16,13 +23,20 @@ python inference_quantize.py
 
 ```
 
-# Create model-archive
+### Create model-archive
 
 ```
 # back to main dir "ml-app"
 cd ..
 ./create_mar.sh
+
 ```
+## Run system 
+```
+docker-compose up
+
+```
+
 
 We can access three containers at:
 
